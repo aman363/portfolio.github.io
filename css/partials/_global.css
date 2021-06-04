@@ -1,0 +1,63 @@
+/* global classes */
+.text-uppercse{
+    text-transform: uppercase;
+}
+
+/* buttons */
+.button{
+    margin: 2px;
+    padding: 0.6rem 2.5rem;
+    font: normal 500 16px/18px var(--roboto);
+    position: relative;
+    border: 1.5px solid transparent;
+    border-radius: 5px;
+}
+
+.button.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background 0.6s ease-in-out;
+    box-shadow: var(--box-shadow);
+
+}
+.button.primary-button:hover{
+    background:whitesmoke;
+    background-clip: padding-box;
+    color:black;
+    border-color: #994fee;
+
+    
+}
+.button.primary-button::after{
+    position: absolute;
+    top:-2px;left: -2px;
+    bottom: -2px;right: -2px;
+    content:'';
+    z-index: -1;
+    border-radius: 4px;
+    
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background 0.6s ease;
+    border-color:#994fee;
+}
+
+.button.secondary-button:hover{
+    background: var(--gradient-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+    border-color: whitesmoke;
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--roboto);
+
+}
+.font-roboto{
+    font-family: var(--roboto);
+}

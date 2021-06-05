@@ -12,6 +12,13 @@
     <!-- font awesome icons -->
     <link rel="stylesheet" href="./css/all.min.css">
 
+    <!-- magnific popup css file -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
+    <!-- owl-carosel css file -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
     <!-- custom css file -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -104,7 +111,7 @@
                     I can’t wait to get started on my career in web development.
                     Ever since I was a high school student, I’ve had a passion for developing different awesome websites.
                     I have a good analytical and interpersonal skill and I am a good listener.
-                    Currently, I am looking for an internship in frontend web development.
+                    I love to play musical instruments.
 
                   </p>
                 </div>
@@ -195,7 +202,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center softskill-title">
-              <h1 class="text-uppercase title-text">Some of my Soft-Skills</h1>
+              <h1 class="text-uppercase title-text">Soft-Skills</h1>
             </div>
           </div>
           <div class="container softskill-list">
@@ -300,80 +307,376 @@
           <h1 class="text-uppercase title-h1">Photo gallery</h1>
         </div>
         <div class="button-group">
-          <button type="button" class="active">All</button>
-          <button type="button">Only Me</button>
-          <button type="button">Family</button>
-          <button type="button">Friends</button>
-          <button type="button">IITJ</button>
+          <button type="button" class="active" id="btn1">All</button>
+          <button type="button" data-filter=".onlyme">Only Me</button>
+          <button type="button" data-filter=".family">Family</button>
+          <button type="button" data-filter=".friends">Friends</button>
+          <button type="button" data-filter=".iitj">IITJ</button>
         </div>
         <div class="row grid">
           <div class="col-lg-4 col-md-6 col-sm-12 element-item onlyme">
             <div class="our-gallery">
               <div class="img">
-                <img src="./img/gallery/onlyme1.JPG" alt="onlyme1" width="200" height="auto">
+                <a class="test-popup-link" href="./img/gallery/onlyme1.JPG">
+                  <img src="./img/gallery/onlyme1.JPG" alt="onlyme1" width="200" height="auto">
+                </a>
+
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 element-item onlyme">
             <div class="our-gallery">
               <div class="img">
-                <img src="./img/gallery/onlyme2.JPG" alt="onlyme2" width="200" height="auto">
+                <a class="test-popup-link" href="./img/gallery/onlyme2.JPG">
+                  <img src="./img/gallery/onlyme2.JPG" alt="onlyme2" width="200" height="auto">
+                </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 element-item onlyme">
             <div class="our-gallery">
               <div class="img">
-                <img src="./img/gallery/onlyme3.JPG" alt="onlyme3" width="200" height="auto">
+                <a class="test-popup-link" href="./img/gallery/onlyme3.JPG">
+                  <img src="./img/gallery/onlyme3.JPG" alt="onlyme3" width="200" height="auto">
+                </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 element-item onlyme">
             <div class="our-gallery">
               <div class="img">
-                <img src="./img/gallery/onlyme4.JPG" alt="onlyme4" width="200" height="auto">
+                <a class="test-popup-link" href="./img/gallery/onlyme4.JPG">
+                  <img src="./img/gallery/onlyme4.JPG" alt="onlyme4" width="200" height="auto">
+                </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 element-item onlyme">
             <div class="our-gallery">
               <div class="img">
-                <img src="./img/gallery/onlyme5.JPG" alt="onlyme5" width="200" height="auto">
+                <a class="test-popup-link" href="./img/gallery/onlyme5.JPG">
+                  <img src="./img/gallery/onlyme5.JPG" alt="onlyme5" width="200" height="auto">
+                </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 element-item onlyme">
             <div class="our-gallery">
               <div class="img">
-                <img src="./img/gallery/onlyme6.JPG" alt="onlyme6" width="200" height="auto">
+                <a class="test-popup-link" href="./img/gallery/onlyme6.JPG">
+                  <img src="./img/gallery/onlyme6.JPG" alt="onlyme6" width="200" height="auto">
+                </a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 element-item onlyme">
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item family">
             <div class="our-gallery">
               <div class="img">
-                <img src="./img/gallery/onlyme7.JPG" alt="onlyme7" width="200" height="auto">
+                <a class="test-popup-link" href="./img/gallery/family1.JPG">
+                  <img src="./img/gallery/family1.JPG" alt="family1" width="200" height="auto">
+                </a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 element-item onlyme">
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item family">
             <div class="our-gallery">
               <div class="img">
-                <img src="./img/gallery/onlyme8.JPG" alt="onlyme8" width="200" height="auto">
+                <a class="test-popup-link" href="./img/gallery/family2.JPG">
+                  <img src="./img/gallery/family2.JPG" alt="family2" width="200" height="auto">
+                </a>
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item family">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/family3.JPG">
+                  <img src="./img/gallery/family3.JPG" alt="family3" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item family">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/family4.JPG">
+                  <img src="./img/gallery/family4.JPG" alt="family4" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item friends">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/friends1.JPG">
+                  <img src="./img/gallery/friends1.JPG" alt="friends1" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item friends">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/friends2.JPG">
+                  <img src="./img/gallery/friends2.JPG" alt="friends2" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item friends">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/friends3.JPG">
+                  <img src="./img/gallery/friends3.JPG" alt="friends3" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item friends">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/friends4.JPG">
+                  <img src="./img/gallery/friends4.JPG" alt="friends4" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item iitj">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/iitj1.png">
+                  <img src="./img/gallery/iitj1.png" alt="iitj1" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item iitj">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/iitj2.jpg">
+                  <img src="./img/gallery/iitj2.jpg" alt="iitj2" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item iitj">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/iitj3.jpg">
+                  <img src="./img/gallery/iitj3.jpg" alt="iitj3" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item iitj">
+            <div class="our-gallery">
+              <div class="img">
+                <a class="test-popup-link" href="./img/gallery/iitj4.jpg">
+                  <img src="./img/gallery/iitj4.jpg" alt="iitj4" width="200" height="auto">
+                </a>
+              </div>
+            </div>
+          </div>
+          
 
         </div>
       </div>
       <!-- ================== end gallery area ===================== -->
+      <!-- ================== start iitj-buddies area ===================== -->
+      <section class="about-area">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <div class="about-title">
+                <h1 class="text-uppercase title-h1">IITJ Buddies</h1>
+                <p>The People with whom I am spending my online college life.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container carousel py-lg-5">
+          <div class="owl-carousel owl-theme">
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/abhinav.jpg" alt="abhinav" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Abhinav Dwivedi</h4>
+                <h6 class="branch">Civil Engineering</h6>
+                <p class="para">The sensible guy</p>
+              </div>
+      
+            </div>
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/chakshu.png" alt="chakshu" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Chakshu Dhannawat</h4>
+                <h6 class="branch">AIDS</h6>
+                <p class="para">The Grandmaster</p>
+              </div>
+      
+            </div>
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/shivansh.jpg" alt="shivansh" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Shivansh Jaiswal</h4>
+                <h6 class="branch">Material Engineering</h6>
+                <p class="para">The Introvert</p>
+              </div>
+      
+            </div>
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/ronak.jpg" alt="ronak" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Ronak Mohata</h4>
+                <h6 class="branch">Electrical Engineering</h6>
+                <p class="para">The Pro Coder</p>
+              </div>
+      
+            </div>
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/rahul.jpg" alt="rahul" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Rahul Barodia</h4>
+                <h6 class="branch">Computer Science and Engineering</h6>
+                <p class="para">The Memer</p>
+              </div>
+      
+            </div>
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/arjun.jpg" alt="arjun" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Arjun Singh</h4>
+                <h6 class="branch">Electrical Engineering</h6>
+                <p class="para">The Extrovert</p>
+              </div>
+      
+            </div>
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/deepanshu.jpg" alt="deepanshu" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Deepanshu</h4>
+                <h6 class="branch">Mechanical Engineering</h6>
+                <p class="para">The Studious Guy</p>
+              </div>
+      
+            </div>
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/vageesh.jpeg" alt="vageesh" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Vageesh</h4>
+                <h6 class="branch">AIDS</h6>
+                <p class="para">The Optimist</p>
+              </div>
+      
+            </div>
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/vishal.png" alt="vishal" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Vishal Jaiswal</h4>
+                <h6 class="branch">Civil Engineering</h6>
+                <p class="para">The Stalker</p>
+              </div>
+      
+            </div>
+            <div class="buddies row">
+              <div class="col-lg-4 col-md-12 buddies-img">
+                <img src="./img/buddies/sonu.jpg" alt="sonu" class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-12 about-buddies">
+                <h4 class="text-uppercase">Sonu Swami</h4>
+                <h6 class="branch">Mechanical Engineering</h6>
+                <p class="para">The Happy Person</p>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- ================== end iitj-buddies area ===================== -->
+
+      <!-- ================== Start subscribe me area ===================== -->
+      <section class="subscribe-us-area">
+        <div class="container subscribe">
+          <div class="row">
+            <div class="col-lg-12 text-center subscribe-title">
+              <h4 class="text-upercase">Get Updates From Anywhere</h4>
+              <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eaque.</p>
+            </div>
+          </div>
+          <div class="d-sm-flex justify-content-center">
+            <form class="w-50">
+              <div class="row d-flex flex-row flex-wrap">
+                <div class="col input-textbox">
+                  <input type="text" id="txtemail" class="form-control" placeholder="Email">
+                </div>
+                <div class="col">
+                  <div class="btn-submit">
+                    <button type="submit" class="btn btn-success float-right ">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- ================== end subscribe me area ===================== -->
 
 
     </main>
+
+    <footer class="footer-area">
+      <div class="container">
+        <div class="">
+          <div class="site-logo text-center py-4">
+            <a href="#"><img src="./img/logo1.png" alt="logo" width="160" height="50"></a>
+          </div>
+          <div class="social text-center">
+            <h5 class="text-uppercase">Follow me</h5>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="copyrights text-center">
+            <p class="para">Copyright ©2021 All rights reserved | This template is made by
+              <a href="#"><span style="color: var(--primary-color);">Aman Srivastava</span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- ======================= end main area ====================== -->
     <!-- jquery js file -->
     <script src="./js/jquery3.6.0.js"></script>
     <!-- bootstrap js file -->
     <script src="./js/bootstrap.min.js"></script>
+    <!-- isotope js file -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!-- magnific popup script file -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!-- owl carousel js file -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    <!-- custom js file -->
+    <script src="./js/main.js"></script>
+
 </body>
 </html>

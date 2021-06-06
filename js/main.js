@@ -56,6 +56,11 @@ $(document).ready(function(){
 
     navbarFixed();
 
+    
 
 
 });
+
+function reset(){
+    document.getElementById("myForm").reset();
+}

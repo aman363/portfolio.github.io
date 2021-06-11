@@ -1,0 +1,38 @@
+
+
+/* If the viewport is equal to or less than 340px */
+@media only screen and (max-width: 420px){
+    .header_area .main-menu .navbar{
+        margin-left: -180px;
+    }
+    .site-main .site-banner .banner-image{
+        margin-left:-110px ;
+        margin-top: 20px;
+    }
+    .site-main .about-area{
+        margin-left: -70px;
+    }
+    .site-main .brand-area .experience-area{
+        margin-left: -120px;
+    }
+    .site-main .brand-area .experience-area .bg-panel{
+        margin-top: 10px;
+    }
+    .site-main .brand-area .experience-area .call-area{
+        margin-left: -150px
+    }
+
+    .site-main .softskill-area{
+        text-align: center;
+    }
+    .site-main .gallery-area{
+        text-align: center;
+        margin-left: -200px;
+    }
+    .site-main .gallery-area .button-group button{
+        margin-bottom: -30px;
+    }
+    .site-main .subscribe-us-area .subscribe form{
+        margin-left: -60px;
+    }
+}

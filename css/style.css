@@ -232,44 +232,56 @@
 }
 /* end IITJ Buddies */
 
-/* start subscribe me */
+/* start contact me */
 
-.site-main .subscribe-us-area .subscribe{
-    background: url(../img/subscribe-background.jpg) center no-repeat;
+.site-main .contact-us-area .contact {
+    background: url(../img/subscribe-background.jpg) center/cover no-repeat;
     padding: 7rem 5rem;
-    
-    
-
-}
-.site-main .subscribe-us-area .subscribe .subscribe-title h4{
-    font: normal 700 30px/30px var(--roboto);
-    color: whitesmoke;
-}
-.site-main .subscribe-us-area .subscribe .subscribe-title p{
-    color: whitesmoke;
-    padding: 1rem 4rem;
 }
 
-.site-main .subscribe-us-area .subscribe form .input-textbox input{
-    width:300px;
+.site-main .contact-us-area .contact .contact-title h4 {
+    font: normal 700 30px/1.2 'Roboto', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 1rem; /* Add some space between the title and the paragraph */
+}
+
+.site-main .contact-us-area .contact .contact-title p {
+    color: #FFFFFF;
+    max-width: 500px; /* Limit the width of the paragraph for better readability */
+    margin: 0 auto; /* Center the paragraph */
+    line-height: 1.6;
+}
+
+.site-main .contact-us-area .contact form .input-textbox input {
+    width: 100%;
+    max-width: 400px; /* Increase the maximum width of the input fields */
     padding: 0.7rem 1rem;
-    border: 1px solid whitesmoke;
+    border: 1px solid #FFFFFF; /* Change to white */
     background: transparent;
-    color: whitesmoke;
-
-
+    color: #FFFFFF;
+    margin-bottom: 1rem; /* Add some space between the input fields and the button */
 }
 
-.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
-    color: whitesmoke;
+.site-main .contact-us-area .contact form .input-textbox input::placeholder {
+    color: #FFFFFF;
 }
 
-.site-main .subscribe-us-area .subscribe form .btn-submit button{
-    background: whitesmoke;
-    color: #000;
+.site-main .contact-us-area .contact form .btn-submit button {
+    background: #FFFFFF;
+    color: #000000;
     padding: 0.7rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Increase the font size for the button */
 }
-/* end subscribe me*/
+
+.site-main .contact-us-area .contact form .btn-submit button:hover {
+    background-color: #f0f0f0;
+}
+
+/* end contact me */
+
 
 /* footer area */
 footer.footer-area{

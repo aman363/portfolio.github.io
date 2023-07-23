@@ -8,78 +8,144 @@
 @import url(./partials/global.css);
 
 
-/* navigation start */
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0rem 2rem 0rem 3rem;
-}
- .header_area .main-menu .navbar{
-    padding: 1rem 15rem;
+
+
+/* start banner area */
+.site-main .site-banner {
+    background: url(../img/background.jpg) no-repeat center/cover;
+    height: 70vh; /* Set the height to cover the entire viewport */
+    display: flex;
+    align-items: center;
+}/* navigation start */
+.header_area .main-menu .navbar .navbar-brand {
+    padding: 0.5rem 2rem 0.5rem 3rem;
 }
 
-.header_area .main-menu .nav-item .nav-link{
+.header_area .main-menu .navbar {
+    padding: 1rem 3rem; /* Reduce the padding to make the navbar more compact */
+}
+
+.header_area .main-menu .nav-item .nav-link {
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1rem;
     color: var(--title-color);
-
 }
 
-.header_area .main-menu .navbar-nav .active{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-.header_area .main-menu .navbar-nav :hover{
+.header_area .main-menu .navbar-nav .active {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-/*navigation end */
-
-/* start banner area */
-.site-main .site-banner{
-    background: url(../img/background.jpg) no-repeat 30% 50%; 
+.header_area .main-menu .navbar-nav :hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
+
+/* navigation end */
+
 
 .site-main .site-banner .site-title {
-    padding-top: 10%;
-    padding-left: 15%;
+    padding-left: 5%; /* Adjust the padding for better alignment */
+    color: #000000; /* Change the text color to white */
 }
 
-.site-main .site-banner .site-title h3::after{
-    content:" ";
-    height:2px;
-    width:18vw;
-    background: black;
-    display: inline-block;
-    margin-left: 5%;
-    transform: translateY(-8px);
+.site-main .site-banner .site-title h3::after {
+    content: " ";
+    height: 2px;
+    width: 70px; /* Increase the width of the line */
+    background: rgb(80, 71, 246);
+    display: block; /* Change to block to display the line properly */
+    margin-top: 8px; /* Adjust the margin for better positioning */
 }
 
-.site-main .site-banner .site-title h1{
-    font-size: 3rem;
+.site-main .site-banner .site-title h1 {
+    font-size: 4rem; /* Increase the font size for the main title */
+    margin-bottom: 1rem; /* Add some space between the main title and the sub-title */
 }
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem; /* Adjust the font size for the sub-title */
+}
+
+.site-main .site-banner .site-buttons {
+    margin-top: 2rem; /* Add some space between the titles and buttons */
+}
+
+.site-main .site-banner .site-buttons .btn {
+    font-size: 18px; /* Adjust the font size for the buttons */
+    margin-right: 10px; /* Add some space between the buttons */
+}
+
+.site-main .site-banner .banner-image {
+    text-align: center; /* Center align the image */
+}
+
+.site-main .site-banner .banner-image img {
+    max-width: 100%;
+    height: auto; /* Set the image to auto height to maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+    margin-top: 20px; /* Adjust the margin for better positioning */
+}
+
 /* end banner area */
 
+
 /* start about area */
-
-.site-main .about-area{
-    padding: 2.9rem 5rem;
-
+.site-main .about-area {
+    padding: 5rem 5rem; /* Increase the top padding for better spacing */
 }
-.site-main .about-area .about-title h5 > span{
+
+.site-main .about-area .about-title h5 > span {
     display: block;
-    font: normal bold 40px/50px var(--roboto);
-    letter-spacing: 15px;
+    font: normal bold 40px/1.25 'Roboto', sans-serif;
+    letter-spacing: 5px; /* Reduce the letter spacing for a balanced look */
+}
+
+.site-main .about-area .about-title h5 > span:nth-child(2) {
+    margin-top: -10px; /* Adjust the margin for better alignment */
+}
+
+.site-main .about-area .about-title h5 > span:nth-child(3) {
+    margin-top: -10px; /* Adjust the margin for better alignment */
+}
+
+.site-main .about-area .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add a subtle border-radius to the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+}
+
+.site-main .about-area .about-title {
+    padding-top: 3rem; /* Increase the top padding for better spacing */
+    color: #000000; /* Change the text color to black */
+}
+
+.site-main .about-area .paragraph {
+    max-width: 85%; /* Adjust the maximum width of the paragraph for better readability */
+    line-height: 1.8; /* Increase the line height for better readability */
+    text-align: justify;
+}
+
+.site-main .about-area .paragraph p {
+    margin-bottom: 1rem; /* Add some space between the paragraphs */
+}
+
+.site-main .about-area .btn {
+    margin-top: 2rem; /* Add some space between the text and the button */
 }
 
 /* end about area */
 
+
 /* start expertise area */
-/* end expertise area */
+
 .site-main .brand-area{
     padding: 2rem 5rem;
     margin-top: -3rem;
@@ -102,7 +168,7 @@
 }
 .site-main .brand-area .row .col-lg-4 > .single-brand:hover{
     box-shadow: var(--box-shadow);
-    transform: scale(1.1,1.1);
+    transform: scale(1.2,1.2);
 }
 .site-main .brand-area .experience-area{
     padding-left: 3rem;
@@ -129,7 +195,7 @@
    padding-top: 10rem ;
    padding-left: 8rem; 
 }
-
+/* end expertise area */
 /* start softskill area */
 .site-main .softskill-area{
     margin-top: -17rem ;
@@ -196,41 +262,62 @@
 
 /* end gallery area */
 
-/* start IITJ Buddies */
-
-.site-main .about-area .buddies{
+/* start coursework area */
+.site-main .about-area .coursework {
     background: #ffffff10;
-    box-shadow: var(--box-shadow);
-    margin: 1rem 1rem;
-}
-.site-main .about-area .buddies .buddies-img{
-    padding: 1rem;
-}
-.site-main .about-area .buddies .about-buddies{
-    padding-top: 1rem;
-
-}
-.site-main .about-area .buddies .about-buddies h4{
-    font: normal 500 21px/20px var(--roboto);
-}
-.site-main .about-area .buddies .about-buddies h6{
-    font: normal 500 15px/16px var(--roboto);
-}
-.site-main .about-area .buddies .about-buddies p{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Modified box shadow */
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding-left: 30px;
+    width: auto;
+  }
+  
+  .site-main .about-area .coursework .coursework-content {
+    height: 200px;
+    padding: 1.5rem 0;
+  }
+  
+  .site-main .about-area .coursework .coursework-content h4 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--title-color);
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+  
+  .site-main .about-area .coursework .coursework-content p {
     font-size: 14px;
-}
-.site-main .about-area .owl-carousel .owl-item{
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 0;
+    text-align: justify;
+  }
+  
+  .site-main .about-area .owl-carousel .owl-item {
     display: flex;
     justify-content: center;
-    
-
-}
-.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+  }
+  
+  .site-main .about-area .owl-carousel .owl-item .coursework {
+    width: 100%;
+    height: 5%;
+    margin: 0.5rem 1rem; /* Add margin between boxes */
+  }
+  
+  .site-main .about-area .owl-carousel .owl-dots .owl-dot.active span {
     background: var(--primary-color);
     width: 12px;
     height: 12px;
-}
-/* end IITJ Buddies */
+  }
+  /* end coursework area */
+  
+  
+  
+  
+  
+  
+  
 
 /* start contact me */
 
